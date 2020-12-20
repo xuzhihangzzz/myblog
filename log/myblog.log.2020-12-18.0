@@ -1,0 +1,8 @@
+2020-12-18 09:32:10.901  INFO 21056 --- [http-nio-8090-exec-2] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.xzh.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-12-18 09:32:12.957  INFO 21056 --- [http-nio-8090-exec-2] com.xzh.aspect.LogAspect                 : Return:{}index
+2020-12-18 09:32:16.329  INFO 21056 --- [http-nio-8090-exec-4] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/blog/43', ip='0:0:0:0:0:0:0:1', classMethod='com.xzh.web.IndexController.blog', args=[43, {}]}
+2020-12-18 09:32:17.488  INFO 21056 --- [http-nio-8090-exec-4] com.xzh.aspect.LogAspect                 : Return:{}blog
+2020-12-18 09:32:50.933  INFO 21056 --- [http-nio-8090-exec-5] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/comments/43', ip='0:0:0:0:0:0:0:1', classMethod='com.xzh.web.CommentController.comments', args=[43, {}]}
+2020-12-18 09:32:52.793  INFO 21056 --- [http-nio-8090-exec-5] com.xzh.aspect.LogAspect                 : Return:{}blog :: commentList
+2020-12-18 12:37:49.122  INFO 21056 --- [http-nio-8090-exec-7] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.xzh.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-12-18 12:37:49.324  INFO 21056 --- [http-nio-8090-exec-7] com.xzh.aspect.LogAspect                 : Return:{}index

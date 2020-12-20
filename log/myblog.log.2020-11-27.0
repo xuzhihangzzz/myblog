@@ -1,0 +1,14 @@
+2020-11-27 18:48:52.660  INFO 10420 --- [http-nio-8080-exec-1] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/', ip='127.0.0.1', classMethod='com.xzh.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-11-27 18:48:55.335  INFO 10420 --- [http-nio-8080-exec-1] com.xzh.aspect.LogAspect                 : Return:{}index
+2020-11-27 18:49:01.997  INFO 10420 --- [http-nio-8080-exec-4] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/blog/28', ip='127.0.0.1', classMethod='com.xzh.web.IndexController.blog', args=[28, {}]}
+2020-11-27 18:49:03.401  INFO 10420 --- [http-nio-8080-exec-4] com.xzh.aspect.LogAspect                 : Return:{}blog
+2020-11-27 18:49:46.091  INFO 10420 --- [http-nio-8080-exec-4] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/comments/28', ip='127.0.0.1', classMethod='com.xzh.web.CommentController.comments', args=[28, {}]}
+2020-11-27 18:49:46.140  INFO 10420 --- [http-nio-8080-exec-4] com.xzh.aspect.LogAspect                 : Return:{}blog :: commentList
+2020-11-27 18:52:22.962  INFO 10420 --- [http-nio-8080-exec-7] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/', ip='127.0.0.1', classMethod='com.xzh.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-11-27 18:52:23.125  INFO 10420 --- [http-nio-8080-exec-7] com.xzh.aspect.LogAspect                 : Return:{}index
+2020-11-27 18:52:30.606  INFO 10420 --- [http-nio-8080-exec-8] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/blog/25', ip='127.0.0.1', classMethod='com.xzh.web.IndexController.blog', args=[25, {}]}
+2020-11-27 18:52:30.811  INFO 10420 --- [http-nio-8080-exec-8] com.xzh.aspect.LogAspect                 : Return:{}blog
+2020-11-27 18:52:38.651  INFO 10420 --- [http-nio-8080-exec-1] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/comments/25', ip='127.0.0.1', classMethod='com.xzh.web.CommentController.comments', args=[25, {}]}
+2020-11-27 18:52:38.652  INFO 10420 --- [http-nio-8080-exec-1] com.xzh.aspect.LogAspect                 : Return:{}blog :: commentList
+2020-11-27 19:01:16.160  INFO 10420 --- [http-nio-8080-exec-4] com.xzh.aspect.LogAspect                 : Request : RequestLog{url='/blog/25', ip='127.0.0.1', classMethod='com.xzh.web.IndexController.blog', args=[25, {}]}
+2020-11-27 19:01:16.399  INFO 10420 --- [http-nio-8080-exec-4] com.xzh.aspect.LogAspect                 : Return:{}blog

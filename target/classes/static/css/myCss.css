@@ -1,0 +1,169 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.myCss-padded-mini {
+    padding: 0.2em !important;
+}
+.myCss-padded-tiny {
+    padding: 0.3em !important;
+}
+.myCss-padded {
+    padding: 1em !important;
+}
+.myCss-padded-tb-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.myCss-padded-tb-tiny{
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+.myCss-padded-tb-small{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+.myCss-padded-tb{
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+.myCss-padded-tb-large{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+.myCss-padded-tb-big{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+.myCss-padded-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+.myCss-padded-tb-massive{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+.myCss-padded-left-right-responsive{
+    padding-left: 4em !important;
+    padding-right: 4em !important;
+}
+
+/*-----text-----*/
+.myCss-text{
+    font-weight: 300 !important;
+    letter-spacing: 1px !important;
+    line-height: 1.8 !important;
+}
+
+.myCss-text-thin{
+    font-weight: 300 !important;
+}
+.myCss-text-spaced{
+    letter-spacing: 1px !important;
+}
+.myCss-text-lined{
+    line-height: 1.8 !important;
+}
+
+/*-----------margin-------------*/
+.myCss-margin-tb-tiny{
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+.myCss-margin-top-small{
+    margin-top: 0.5em !important;
+}
+.myCss-margin-top{
+    margin-top: 1em !important;
+}
+.myCss-margin-top-large{
+    margin-top: 2em !important;
+}
+.myCss-margin-bottom-small{
+    margin-bottom: 0.5em !important;
+}
+
+
+/*-----------opacity-------------*/
+.myCss-opacity-mini{
+    opacity: 0.8 !important;
+}
+.myCss-opacity-tiny{
+    opacity: 0.6 !important;
+}
+
+/*-------position--------*/
+.myCss-right-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.myCss-fixed{
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+.myCss-right-bottom{
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+/*-------display--------*/
+.myCss-inline-block{
+    display: inline-block !important;
+}
+
+/*-----container------*/
+.myCss-container{
+    max-width: 72em !important;
+    margin: auto !important;
+}
+.myCss-container-small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+/*------shadow------*/
+.myCss-shadow-small{
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+}
+
+/*------color------*/
+.myCss-black{
+    color: #333 !important;
+}
+
+.myCss-teal{
+    color: #00B5AD !important;
+}
+
+.myCss-mobile-show{
+    display: none !important;
+}
+
+/*-------媒体查询：手机端隐藏导航栏，显示一个块型图案 等等-------*/
+@media screen and (max-width: 768px){
+    .myCss-mobile-hide{
+        display: none !important;
+    }
+    .myCss-mobile-show{
+        display: block !important;
+    }
+    .myCss-padded-left-right-responsive{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .myCss-padded-left-right-clear{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .myCss-mobile-wide{
+        width: 100% !important;
+    }
+}
